@@ -2,7 +2,7 @@
 :root {
     --main--cl: #434455;
     --footer--cl: #F4F4FD;
-    --logo--l: #2e2f42;
+    --logo--cl: #2e2f42;
 }
 
 body{
@@ -36,7 +36,7 @@ body{
 }
 
 .header-logo-color {
-    color: var(--logo--l);
+    color: var(--logo--cl);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
