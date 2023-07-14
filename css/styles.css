@@ -240,8 +240,9 @@ letter-spacing: 0.02em;
     
 }
 
-.footer {
+.footer { background-color:#2e2f42 ;
 }
+
 
 .footer-text {
     color: var(--cloud, #F4F4FD);
