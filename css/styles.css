@@ -36,7 +36,7 @@ body{
 }
 
 .header-logo-color {
-    color: var(--logo--cl);
+    color: var (--logo--cl);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -57,7 +57,7 @@ body{
 }
 
 .header-menu-link {
-    color: var(--span--cl);
+    color: var(-logo--cl);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -82,7 +82,7 @@ body{
     letter-spacing: 0.02em;
 }
 .header-mailto:hover
-:focus
+.header-mailto:focus
 {
     color:#404BBF;
 }
