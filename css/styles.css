@@ -99,7 +99,7 @@ body{
 }
 
 .header-tel:hover
-:focus
+.header-tel:focus
 {
     color:#404BBF;
 }
