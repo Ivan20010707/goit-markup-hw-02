@@ -94,10 +94,12 @@ body{
     letter-spacing: 0.02em;  
 }
 
-.header-mailto:hover
+.header-mailto:hover {
+    color: #404bbf
+}
 .header-mailto:focus
 {
-    color:#404bbf;
+    color: #404bbf
 }
 
 /*! -----main----- */
