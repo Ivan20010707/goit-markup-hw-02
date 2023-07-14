@@ -2,7 +2,7 @@
 :root {
     --main--cl: #434455;
     --footer--cl: #F4F4FD;
-    --logo--cl: #2e2f42;
+    --logos--cl: #2e2f42;
 }
 
 body{
@@ -26,7 +26,7 @@ body{
 /*! -----heder----- */
 
 .header-logo {
-    color: var(--navyblue,  #4D5AE5);;
+    color: #4D5AE5;;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -36,7 +36,7 @@ body{
 }
 
 .header-logo-color {
-    color: var (--logo--cl);
+    color: var #2E2F42;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -57,7 +57,7 @@ body{
 }
 
 .header-menu-link {
-    color: var(-logo--cl);
+    color: var(--logos--cl);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
