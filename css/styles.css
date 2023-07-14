@@ -2,7 +2,7 @@
 :root {
     --main--cl: #434455;
     --footer--cl: #F4F4FD;
-    --span--cl: #2e2f42;
+    --logo--l: #2e2f42;
 }
 
 body{
@@ -19,7 +19,7 @@ body{
     list-style-type: none;
 }
 
-span.
+
 
 
 
@@ -36,7 +36,7 @@ span.
 }
 
 .header-logo-color {
-    color:var(--span--cl);
+    color: var(--logo--l);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -46,9 +46,9 @@ span.
     
 }
 
-.header-logo:hover,
+.header-logo:hover
  {
-    color:#404bbf;
+    color: #404bbf;
 }
 
 .header-logo-color:focus
