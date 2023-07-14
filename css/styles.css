@@ -177,7 +177,7 @@ letter-spacing: 0px
 .navigation-item {
 }
 .navigation-list {
-    .link {text-decoration: ;}
+
 }
 
 .navigation-btn{
@@ -204,10 +204,11 @@ letter-spacing: 0.04em;
 
 .portfolio {
 }
-.portfolio-item {
-}
 .portfolio-list {
 }
+.portfolio-item {
+}
+
 .portfolio-subtitle {
     color: var(--navyblue, #2E2F42);
 font-size: 20px;
