@@ -177,6 +177,7 @@ letter-spacing: 0px
 .navigation-item {
 }
 .navigation-list {
+    .link {text-decoration: ;}
 }
 
 .navigation-btn{
