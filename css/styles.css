@@ -36,7 +36,7 @@ body{
 }
 
 .header-logo-color {
-    color: var #2E2F42;
+    color: var(--logos--cl);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
