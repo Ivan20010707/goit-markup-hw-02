@@ -1,6 +1,11 @@
+
+:root {
+    --main--cl: #434455; 
+}
+
 body{
     font-family: "Roboto", sans-serif;
-    color: #434455 ;
+    color: var(--main--cl);
     background-color: #FFFFFF;
  }
 
@@ -11,6 +16,10 @@ body{
 .list {
     list-style-type: none;
 }
+
+
+
+
 
 /*! -----heder----- */
 
@@ -44,7 +53,7 @@ body{
 }
 
 .header-mailto {
-    color: var(--slate, #434455);
+    color: var(--main--cl);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -57,7 +66,7 @@ body{
 }
 
 .header-tel {
-    color: var(--slate, #434455);
+    color: var(--main--cl);
     /* Body */
     font-family: Roboto;
     font-size: 16px;
@@ -116,7 +125,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .advantages-text {
-    color: var(--slate, #434455);
+    color: varvar(--main--cl);
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
@@ -156,7 +165,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .team-text {
-    color: var(--slate, #434455);
+    color: varvar(--main--cl);
 font-family: Roboto;
 font-size: 16px;
 line-height: 1.5; 
@@ -175,7 +184,8 @@ letter-spacing: 0px
 }
 
 .navigation-btn {
-    color: var(--iris, #4D5AE5);
+color: var(--iris, #4D5AE5);
+font-family: "Roboto", sans-serif;
 text-align: center;
 font-size: 16px;
 font-style: normal;
@@ -205,7 +215,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .portfolio-text {
-    color: var(--slate, #434455);
+    color: var(--main--cl);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
