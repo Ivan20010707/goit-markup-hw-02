@@ -1,6 +1,8 @@
 body{
     font-family: "Roboto", sans-serif;
-}
+    color: #434455 ;
+    background-color: #FFFFFF;
+ }
 
 .link {
     text-decoration: none;
@@ -13,21 +15,23 @@ body{
 /*! -----heder----- */
 
 .header-logo {
-    color: var(--navyblue, #2E2F42);;
-    font-family: Raleway;
+    color: var(--navyblue,  #4D5AE5);;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16; 
+    line-height: 1.17; 
     letter-spacing: 0.03em;
+    text-transform: uppercase 
 }
 
 .header-logo-color {
-    color: var(--iris, #4D5AE5);
-    font-family: Raleway;
+    color: var(--iris, #2E2F42 );
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16; 
+    line-height: 1.17; 
     letter-spacing: 0.03em;
+    text-transform: uppercase 
     
 }
 
@@ -41,6 +45,7 @@ body{
 
 .header-mailto {
     color: var(--slate, #434455);
+    font-style: normal
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
@@ -52,6 +57,7 @@ letter-spacing: 0.02em;
 
 .header-tel {
     color: var(--slate, #434455);
+    font-style: normal
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;   
