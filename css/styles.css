@@ -19,7 +19,7 @@ body{
     list-style-type: none;
 }
 
-
+span.
 
 
 
@@ -36,7 +36,7 @@ body{
 }
 
 .header-logo-color {
-    color: #f4f4fd;
+    color:var(--span--cl);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
