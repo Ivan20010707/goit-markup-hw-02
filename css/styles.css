@@ -44,6 +44,16 @@ body{
     
 }
 
+.header-logo:hover,
+:focus {
+    color:#404bbf;
+}
+
+.header-logo-color:hover
+:focus {
+    color:#404bbf;
+}
+
 .header-menu-link {
     color: var(--navyblue, #2E2F42);
     font-size: 16px;
@@ -57,7 +67,7 @@ body{
     color:#404bbf;
 }
 
-.header-address {
+.address {
     font-style: normal
 }
 .header-mailto {
@@ -111,7 +121,6 @@ letter-spacing: 0.02em;
 }
  
 .hero-btn:hover
-:focus
 {
     background-color: #404BBF;
 }
@@ -119,11 +128,12 @@ letter-spacing: 0.02em;
 .hero-btn {
     color: var(--white, #FFF);
 font-family: "Roboto", sans-serif;
+cursor: pointer;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.04em;
-cursor: pointer
+
 }
 
 
