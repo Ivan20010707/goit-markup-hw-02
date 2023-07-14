@@ -1,6 +1,7 @@
 
 :root {
-    --main--cl: #434455; 
+    --main--cl: #434455;
+    --footer--cl: #F4F4FD;
 }
 
 body{
@@ -214,6 +215,7 @@ letter-spacing: 0.02em
 .navigation-btn {
 color: var(--iris, #4D5AE5);
 font-family: "Roboto", sans-serif;
+cursor: pointer;
 text-align: center;
 font-size: 16px;
 font-style: normal;
@@ -276,8 +278,8 @@ letter-spacing: 0.02em;
 
 
 .footer-text {
-    color: var(--cloud, #F4F4FD);
+    color: var(--footer--cl);
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
