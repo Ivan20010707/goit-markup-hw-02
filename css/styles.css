@@ -47,11 +47,12 @@ body{
 }
 
 .header-logo:hover,
-:focus {
+ {
     color:#404bbf;
 }
 
-.header-logo-color:focus {
+.header-logo-color:focus
+ {
     color:#404bbf;
 }
 
