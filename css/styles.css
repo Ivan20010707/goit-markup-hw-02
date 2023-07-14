@@ -45,22 +45,26 @@ body{
 
 .header-mailto {
     color: var(--slate, #434455);
-    font-style: normal
-font-size: 16px;
-line-height: 1.5; 
-letter-spacing: 0.02em;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
 }
-
 .header-mailto:hover {
     color:#404BBF;
 }
 
 .header-tel {
     color: var(--slate, #434455);
-    font-style: normal
-font-size: 16px;
-line-height: 1.5; 
-letter-spacing: 0.02em;   
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24p1.5;
+    letter-spacing: 0.02em;  
 }
 
 .header-tel:hover {
@@ -174,9 +178,17 @@ letter-spacing: 0px
     color: var(--iris, #4D5AE5);
 text-align: center;
 font-size: 16px;
+font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+}
+
+.navigation-btn:hover,
+:focus
+ {
+    color: #FFFFFF;
+    background-color: #404BBF
 }
 
 .portfolio {
